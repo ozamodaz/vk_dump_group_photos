@@ -4,8 +4,13 @@ import vk
 session = vk.Session()
 api = vk.API(session)
 
+# If page has its own name shown in URL
 # page_domain = 'spacespiceboy'
+
+# If page only has id number
 owner_id = -76907970
+
+# Where to save photos
 dload_folder = '/home/ozamodaz/Pictures/tst/'
 
 
